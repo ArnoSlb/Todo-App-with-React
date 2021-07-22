@@ -33,15 +33,30 @@ body {
 
 .form input {
     height: 30px;
-    width: 350px;
+    width: 60vw;
+    max-width: 500px;
     margin-right: 20px;
     padding-left: 10px;
     margin-bottom: 40px;
+    font-family: Caviardreams;
+    font-size: 14px;
 }
 
 .form h2 {
     margin-bottom: 30px;
     padding-left: 10px;
+}
+
+.send {
+    height: 35px;
+    width: 60px;
+    border: none;
+    background-color: rgb(221, 158, 21);
+    font-family: CaviarDreams;
+    font-size: 14px;
+}
+.send:hover {
+    cursor: pointer;
 }
 
 .tasks{
