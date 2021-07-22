@@ -1,5 +1,16 @@
+import Form from '../Form/Form'
+import '../../reset.css'
+import './App.css'
+
+
 const App = () => {
-    return <h1>Mon App</h1>
+    return (
+        <div className="app">
+            <h1>Todo List</h1>
+            <Form/>
+        </div>  
+    
+    )
 }
 
 export default App;
